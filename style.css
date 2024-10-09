@@ -1,0 +1,82 @@
+/*Font added*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Merriweather", serif;
+}
+
+.main{
+    width: 1255px;
+    height: 590px;
+    background-color: rgba(229, 84, 115, 0.1);
+    display: flex;
+}
+
+#beautiful{
+    position: absolute;
+    width: 700px;
+    height: 250px;
+    left: 180px;
+    right: -240px;
+    top: 125px;
+    bottom: 20px;
+    color: rgb(39, 39, 39);
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#long{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 180px;
+    right: -240px;
+    top: 380px;
+    bottom: 10px;
+}
+
+#shop{
+    top:490px ;
+    left: 166px;
+    right: -240px;
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #738426;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #738426;
+   border-radius: 5px;
+    box-shadow: inset 0 0 0 0 #738426;
+  }
+  
+#shop:hover {
+    color: white;
+    box-shadow: inset 0 100px 0 0 #C83480;
+  }
+  
+ #shop:active {
+    transform: scale(2.34);
+  }
+   
+#flower{
+    position: absolute;
+    width: 400px;
+    height: 560px;
+    left: 800px;
+    top: 30px;
+}
