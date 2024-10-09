@@ -162,3 +162,181 @@ body{
     text-align: left;
     margin-left:-170px ;
 }
+.hot{
+    height: 300px;
+    border-radius: 8px;
+    background: rgba(235, 77, 111, 0.10);
+    margin-top: 500px;
+    display: flex;
+    height: 450px;
+    gap: 75px;
+}
+#deal{
+    font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 70px;
+padding-top: 190px;
+}
+#off{
+    font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+color: rgb(240, 153, 172);
+}
+#www{
+    color: rgba(15, 15, 15, 0.674);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+margin-top: 20px;
+margin-left: 70px;
+}
+#lala{
+    position: absolute;
+width: 320px;
+height: 400px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+/* From Uiverse.io by SujitAdroja */ 
+.btn {
+    color: purple;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid purple;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    transition: all 1s;
+    overflow: hidden;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: -40px;
+    transform: skewX(45deg);
+    background-color: purple;
+    z-index: -1;
+    transition: all 1s;
+  }
+  
+  .btn:hover::before {
+    width: 160%;
+  }
+  .the{
+    background-image: url('./Image/Rectangle 9.png');
+    background-size: 1300px;
+    height: 400px;
+  }
+  #geet{
+    color: rgb(39, 39, 39);
+padding-top: 80px;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+  }
+  #geeet{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  /* From Uiverse.io by satyamchaudharydev */ 
+.form {
+    --width-of-input: 200px;
+    --border-height: 1px;
+    --border-before-color: rgba(221, 221, 221, 0.39);
+    --border-after-color: #5891ff;
+    --input-hovered-color: #4985e01f;
+    position: relative;
+    width: var(--width-of-input);
+   }
+   /* styling of Input */
+   .input {
+    color: #000000;
+    font-size: 0.9rem;
+    background-color: transparent;
+    width: 700px;
+    margin-top: 70px;
+    margin-left: 300px;
+    box-sizing: border-box;
+    padding-inline: 0.5em;
+    padding-block: 0.7em;
+    border: none;
+    border-bottom: var(--border-height) solid var(--border-before-color);
+   }
+   /* styling of animated border */
+   .input-border {
+    position: absolute;
+    background: var(--border-after-color);
+    width: 700px;
+    height: 2px;
+    
+    margin-left: 300px;
+    bottom: 0;
+    left: 0;
+    transition: 0.3s;
+   }
+   /* Hover on Input */
+   input:hover {
+    background: var(--input-hovered-color);
+   }
+   
+   input:focus {
+    outline: none;
+   }
+   /* here is code of animated border */
+   input:focus ~ .input-border {
+    width: 0%;
+   }
+
+.mufti{
+    display: flex;
+}  
+.foot{
+    background: rgb(17, 16, 16);
+    height: 300px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+#reader{
+  color: aliceblue;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+text-align: center;
+padding-top: 90px;
+}
+#will{
+    color: rgba(255, 255, 255, 0.9);
+
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
